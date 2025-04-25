@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padmaj Jadhav | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f0f8ff;
+      color: #222;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00b4db, #0083b0);
+      color: white;
+      padding: 60px 20px 20px;
+      text-align: center;
+    }
+
+    .highlight {
+      color: #ffdd57;
+    }
+
+    .socials a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    section {
+      padding: 60px 20px;
+      animation: fadeIn 1s ease-in-out;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      margin: 30px auto;
+      background-color: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+        transform: scale(1.02);
+        box-shadow: 0 12px 24px rgba(0, 131, 176, 0.2);
+    }
+
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #0083b0;
+    }
+
+    .skills-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .skills-list2 {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .skills-list li {
+      background: #0083b0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .skills-list2 li {
+      background: #0083b0;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .project {
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #fdfdfd;
+      border-left: 5px solid #00b4db;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .project a {
+      color: #0083b0;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      background-color: #0083b0;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .view-projects {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .view-projects .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .project {
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #fdfdfd;
+      border-left: 5px solid #00b4db;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .project a {
+      color: #0083b0;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .view-more-projects {
+      font-size: 18px;
+      color: #0083b0;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 10px 20px;
+      border: 2px solid #0083b0;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    .view-more-projects:hover {
+      background-color: #0083b0;
+      color: white;
+    }
+
+    header p1 {
+      font-style: italic;
+      color: white;
+      margin: 0.3rem 0;
+    }
+
+    section .container {
+  transition: transform 0.3s ease,;
+}
+
+section .project:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 131, 176, 0.2);
+}
+
+.skills-list2 li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.skills-list2 li a:hover {
+  transform: scale(1.1);
+  color: #00ffff;
+}
+
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header id="home">
+    <div class="container">
+      <img class="profile-img" src="Photo.jpg" alt="Padmaj Jadhav">
+      <h1>Hi, I'm <span class="highlight">Padmaj Jadhav</span></h1>
+      <p>Aspiring Tech Creator | Python Enthusiast</p>
+
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a BSc. Computer Science student at MGM College of IT and CS, passionate about building my career in tech, Web Development, and data analysis. I enjoy working on creative and impactful projects.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML & CSS</li>
+        <li>Photoshop & Canva</li>
+        <li>R & Python (Beginner)</li>
+        <li>Excel, Tableau</li>
+        <li>SEO & Digital Marketing Basics</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="certificates">
+    <div class="container">
+      <h2>Certifications</h2>
+      <div class="project">
+        <h3>On-Page SEO Training Course</h3>
+        <p>On-Page SEO Training Course, gaining hands-on knowledge in optimizing website content for better search engine rankings.</p>
+        <p><a href="SEO Certificate.pdf" target="_blank">Click here to view certificate</a></p>
+      </div>
+      <div class="project">
+        <h3>TCS Cybersecurity Analyst Job Simulation</h3>
+        <p>I gained practical experience in identifying and mitigating security threats. The simulation involved tasks like analyzing security logs, responding to security incidents, and implementing protective measures to ensure the safety of digital systems. </p>
+        <p><a href="Tata Certificate.pdf" target="_blank">Click here to view certificate</a></p>
+      </div>
+      <div class="project">
+        <h3>Deloitte Data Analytics Job Simulation</h3>
+        <p>Completed the Data Analytics Job Simulation, where I analyzed data using Excel and Tableau to derive business insights and support decision-making processes.</p>
+        <p><a href="Deloite Certificate.pdf" target="_blank">Click here to view certificate</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>UrbanXplore – Bike Business Model</h3>
+        <p>A youth-focused adventure bike business plan, targeting rentals and exploration features.</p>
+      </div>
+      <div class="project">
+        <h3>Deloitte Forage Simulation</h3>
+        <p>Built a data dashboard in Tableau and classified data in Excel to make business decisions.</p>
+      </div>
+      <div class="project">
+        <h3>Movie Project – The Silent Verdict</h3>
+        <p>Created characters, storylines, and visuals for a short film based on political themes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+        <h2>Web Development Projects</h2>
+        <div class="project">
+          <h3>Love Proposal Website</h3>
+          <p>Created a romantic, interactive website to express love in a heartfelt and creative way. The site features personalized messages, smooth animations, and a simple yet elegant design to make the moment unforgettable.</p>
+          <a href="https://proposaltoyou.netlify.app/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Gym Management System</h3>
+            <p>Created a comprehensive gym management platform to streamline membership registration, class scheduling, and billing, enhancing the overall operational efficiency of gyms.
+            </p>
+            <a href="http://gymsystem.lovestoblog.com/" target="_blank">View Project</a>
+          </div>
+      </div>
+  </section>
+
+  <section class="view-projects">
+      <a href="https://github.com/Padmajjadhav/Web-Designing/tree/main" class="view-more-projects">See More Projects</a>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>📧 Padmajjadhav26@gmail.com</p>
+      <p>📍 Navi Mumbai, India</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Links</h2>
+      <ul class="skills-list2">
+        <li><a href="https://www.linkedin.com/in/padmajjadhav" target="_blank" style="color: white; text-decoration: none;">LinkedIn</a></li>
+        <li><a href="https://github.com/Padmajjadhav" target="_blank" style="color: white; text-decoration: none;">GitHub</a></li>
+        <li><a href="mailto:Padmajjadhav26@gmail.com" style="color: white; text-decoration: none;">Email</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Padmaj Jadhav | Portfolio</p>
+    </div>
+  </footer>
+
+</body>
+</html>
